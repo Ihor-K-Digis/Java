@@ -1,0 +1,7 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  ws:
+    telemetry_config: file:/usr/share/acme/telemetry_config.json
+    attribute_config: file:/usr/share/acme/attribute_config.json
